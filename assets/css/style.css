@@ -91,14 +91,14 @@ body {
 }
 
 .booking_box {
-    background-color: aliceblue;
-    opacity: 50%;
+    background-color: aliceblue;   
     height: 80px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;    
+    width: 50%;  
+    opacity: 80%;  
 }
 
 .booking_box_container {
@@ -107,9 +107,17 @@ body {
     justify-content: center;
     margin-top: 30%;
     height: 80px;
+    
 }
 
 .start_date, 
-.end_date {
-    height: 80%;
+.end_date,
+.check_btn {
+    height: 45px;
+    width: 275px;
+}
+
+.check_btn {
+    background-color: rgb(192, 96, 31);
+    color: white;
 }
