@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/pexels-pixabay-260922.jpg);
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.section_top {
+    display: flex;
+    height: 80px;
+}
+
+.section_top > ul > li > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.section_top > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+
+
+.section_top > ul > li{
+    list-style: none;
+}
+
+.contact_email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.social_handle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 40%;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.section_low {
+    display: flex;
+    height: 80px;
+}
+
+
+.section_low > ul > li > a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.section_low > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.section_low > ul > li{
+    list-style: none;
+}
+
+.hotel_services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.reviews_attraction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 40%;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.booking_box {
+    background-color: aliceblue;
+    opacity: 50%;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;    
+}
+
+.booking_box_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    height: 80px;
+}
+
+.start_date, 
+.end_date {
+    height: 80%;
+}
