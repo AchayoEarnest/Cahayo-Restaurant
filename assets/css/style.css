@@ -36,8 +36,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    padding-left: 30px;
+    gap: 30px;
+    padding-left: 10px;
     font-size: 18px;
 }
 
@@ -45,15 +45,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    padding-left: 40%;
-    font-size: 18px;
+    gap: 30px;
+    margin-left: 50%;
+    font-size: 14px;
     justify-content: space-evenly;
 }
 
 .section_low {
     display: flex;
-    height: 80px;
+    height: 60px;
 }
 
 
@@ -77,7 +77,7 @@ body {
     align-items: center;
     gap: 50px;
     padding-left: 30px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .reviews_attraction {
@@ -86,19 +86,20 @@ body {
     align-items: center;
     gap: 50px;
     padding-left: 40%;
-    font-size: 18px;
+    font-size: 12px;
     justify-content: space-evenly;
 }
 
 .booking_box {
     background-color: aliceblue;   
-    height: 80px;
+    height: 70px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;  
+    width: 55%;  
     opacity: 80%;  
+    border-radius: 12px;
 }
 
 .booking_box_container {
@@ -106,7 +107,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 30%;
-    height: 80px;
+    height: 50px;
     
 }
 
@@ -120,4 +121,11 @@ body {
 .check_btn {
     background-color: rgb(192, 96, 31);
     color: white;
+}
+
+#facebook, 
+#twitter,
+#instagram,
+#call {
+    height: 20px;
 }
